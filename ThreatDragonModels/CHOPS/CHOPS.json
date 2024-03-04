@@ -1,0 +1,16 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "CHOPS",
+    "owner": "Hogwarts",
+    "description": "A mobile app being used for the Quidditch Olympic Festival.  Has information for scheduling, event access, announcements, news, tickets, check-in, VIP access and\npayments",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "Dumbledore",
+    "threatTop": 0
+  }
+}
