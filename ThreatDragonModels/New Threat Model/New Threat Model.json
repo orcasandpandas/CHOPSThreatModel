@@ -825,6 +825,106 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Attempt to get access",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "e730a5da-e27b-4e7a-a1cb-ea54d4abb582",
+            "source": {
+              "cell": "e6d4f338-6fef-456b-8f01-8d69d220749e"
+            },
+            "target": {
+              "cell": "1af3f19f-5c82-4223-9fb3-15ecf2a87e21"
+            },
+            "vertices": [
+              {
+                "x": 236,
+                "y": 190
+              }
+            ],
+            "labels": [
+              "Attempt to get access"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Definitely Attempt to get access",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "500a1d96-2b4b-4b6f-ba8c-094bdbf8b3e0",
+            "source": {
+              "cell": "e6d4f338-6fef-456b-8f01-8d69d220749e"
+            },
+            "target": {
+              "cell": "38c08189-cdcf-45ec-b179-8764113de279"
+            },
+            "labels": [
+              "Definitely Attempt to get access"
+            ],
+            "vertices": [
+              {
+                "x": 50,
+                "y": 250
+              },
+              {
+                "x": 50,
+                "y": 513
+              }
+            ]
+          },
+          {
             "position": {
               "x": 350,
               "y": 400
@@ -1340,6 +1440,40 @@
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 210,
+              "y": 80
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Dark Wizards\n(Malicious Parties)"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "e6d4f338-6fef-456b-8f01-8d69d220749e",
+            "zIndex": 25,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Dark Wizards\n(Malicious Parties)",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
               "threats": []
             }
           }
