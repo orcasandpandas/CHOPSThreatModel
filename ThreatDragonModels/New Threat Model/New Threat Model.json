@@ -789,6 +789,42 @@
             ]
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Authentication",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "a90f298e-99e9-4216-b773-de90287305cd",
+            "source": {
+              "x": -41,
+              "y": 260
+            },
+            "target": {
+              "x": 580,
+              "y": 180
+            },
+            "labels": [
+              "Authentication"
+            ],
+            "vertices": [
+              {
+                "x": 480,
+                "y": 320
+              },
+              {
+                "x": 520,
+                "y": 260
+              }
+            ]
+          },
+          {
             "position": {
               "x": 350,
               "y": 400
